@@ -46,7 +46,11 @@ venv\Scripts\activate     # Windows
 
 pip install -r requirements.txt
 
-## **Execução do Pipeline**
+```
+
+## Execução do Pipeline
+
+```
 
 Os notebooks devem ser executados na seguinte ordem:
 
@@ -65,6 +69,8 @@ Avaliação de desempenho, comparação entre modelos e análise de overfitting.
 05_inference.ipynb
 Carregamento do modelo treinado e realização de previsões para novos dados.
 
+```
+
 ## Pesos do Modelo
 
 Os pesos do modelo treinado estão salvos no arquivo:
@@ -74,11 +80,14 @@ models/sleep_quality_model.pkl
 
 Esse arquivo é gerado no notebook 03_training.ipynb e utilizado no 05_inference.ipynb para realizar a inferência da qualidade do sono em novos pacientes.
 
+```
+
 ## Métricas
 
 As métricas de desempenho (RMSE, MAE e R²) e comparações entre modelos estão disponíveis na pasta:
 
 results/
 
+```
 
 ---
