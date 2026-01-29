@@ -2,9 +2,11 @@
 
 Este projeto busca prever a qualidade do sono de indivíduos, permitindo que profissionais avaliem o risco de distúrbios do sono com base em dados de saúde, hábitos diários e sinais fisiológicos.
 
----
+
 
 ## Estrutura do Repositório
+
+```
 
 previsao-da-qualidade-do-sono/
 │
@@ -32,7 +34,7 @@ previsao-da-qualidade-do-sono/
 ├── requirements.txt
 └── README.md
 
----
+```
 
 ## Instalação
 
