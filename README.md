@@ -46,7 +46,7 @@ venv\Scripts\activate     # Windows
 
 pip install -r requirements.txt
 
-## Execução do Pipeline
+## **Execução do Pipeline**
 
 Os notebooks devem ser executados na seguinte ordem:
 
