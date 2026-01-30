@@ -2,40 +2,6 @@
 
 Este projeto busca prever a qualidade do sono de indivíduos, permitindo que profissionais avaliem o risco de distúrbios do sono com base em dados de saúde, hábitos diários e sinais fisiológicos.
 
-
-
-## Estrutura do Repositório
-
-```
-
-previsao-da-qualidade-do-sono/
-│
-├── notebooks/
-│ ├── 01_eda.ipynb
-│ ├── 02_preprocessing.ipynb
-│ ├── 03_training.ipynb
-│ ├── 04_evaluation.ipynb
-│ └── 05_inference.ipynb
-│
-├── data/
-│ ├── Sleep_health_and_lifestyle_dataset.csv
-│ └── dataframe.csv
-│
-├── models/
-│ └── sleep_quality_model.pkl
-│
-├── results/
-│ ├── linear_results.csv
-│ ├── tree_results.csv
-│ ├── rf_results.csv
-│ ├── comparison.csv
-│ └── comparison_overfit.csv
-│
-├── requirements.txt
-└── README.md
-
-```
-
 ## Instalação e Execução
 
 - Você precisará baixar os arquivos 01_eda.ipynb, 02_preprocessing.ipynb, 03_training.ipynb, 04_evaluation.ipynb, 05_inference.ipynb e sleep_quality_model.pkl.
