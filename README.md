@@ -36,40 +36,11 @@ previsao-da-qualidade-do-sono/
 
 ```
 
-## Instalação
+## Instalação e Execução
 
-Criar um ambiente virtual:
-```bash
-python -m venv venv
-source venv/bin/activate  # Linux/Mac
-venv\Scripts\activate     # Windows
+- Você precisará baixar os arquivos 01_eda.ipynb, 02_preprocessing.ipynb, 03_training.ipynb, 04_evaluation.ipynb, 05_inference.ipynb e sleep_quality_model.pkl.
 
-pip install -r requirements.txt
-
-```
-
-## Execução do Pipeline
-
-```
-
-Os notebooks devem ser executados na seguinte ordem:
-
-01_eda.ipynb
-Análise Exploratória de Dados (EDA).
-
-02_preprocessing.ipynb
-Limpeza, transformação dos dados, codificação One-Hot e geração do arquivo dataframe.csv.
-
-03_training.ipynb
-Treinamento dos modelos de Regressão Linear, Árvore de Decisão e Random Forest, além do salvamento do modelo final.
-
-04_evaluation.ipynb
-Avaliação de desempenho, comparação entre modelos e análise de overfitting.
-
-05_inference.ipynb
-Carregamento do modelo treinado e realização de previsões para novos dados.
-
-```
+- Para executar esse código basta clicar [aqui](00_main.ipynb), depois no ícone "Open in Colab" que aparecerá no topo do código. Após isso coloque os arquivos baixados no /content do google colab e, finalmente, ir em "Ambiente de execução" e clicar em "Executar tudo".
 
 ## Pesos do Modelo
 
